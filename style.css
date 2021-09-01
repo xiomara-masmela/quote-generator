@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     vertical-align: baseline;
+    box-sizing: border-box;
   }
 
 
@@ -10,8 +11,9 @@
 /* QUOTE GENERATOR STYLING*/
 /*++++++++++++++++++++++++++*/
 body {
-    background-color: #F3F3F3;
+    background-color: #d88c8a;
     font-family: 'Lato', sans-serif;
+    color: #161414 ;
 }
 
 div {
@@ -20,7 +22,7 @@ div {
   }
 
 a {
-    color: #D88C8A;
+    color: #f3f3f3;
 }
 
 a:hover {
@@ -32,8 +34,7 @@ a:hover {
 }
 
 #quote-box {
-    background-image: url('/images/quotation.jpg');
-    background-size: cover;
+    min-width: 500px;
 }
 
 #quote-box p #text {
@@ -43,18 +44,28 @@ a:hover {
     line-height: 1.5;
     font-weight: 700;
 }
+span.quotation {
+    font-size: 60px;
+    color: #f3f3f3;
+}
 
 .quote-author span {
-    color: #D88C8A;
     font-weight: 300;
     font-size: 20px;
 }
 
 button#new-quote {
-    background: #D88C8A;
-    border: #D88C8A;
+    background-color: transparent;
+    border: 1px solid #161414;
+   
     font-weight: 500;
     padding: 11px 20px;
+    color: inherit;
+    transition: all 0.2s ease-in;
+}
+button#new-quote:hover {
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
 }
 
 i.fa.fa-twitter {
@@ -64,4 +75,11 @@ i.fa.fa-twitter {
 .creator {
     font-size: 16px;
     font-weight: 300;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
