@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quote Generator</title>
+    <!-- META INFORMATION -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Random Quote Generator">
+    <meta name="author" content="Xio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- END OF META INFORMATION -->
+    <!-- BOOTSTRAP CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FONTAWESOME CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Muli:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row mt-5 mb-3 pt-3">
+                <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h1 class="page-title">Quote Generator</h1>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row pt-4 pb-4">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div id="quote-box">
+                    <p><span id="text">In the end, it's not the years in your life that count. It's the life in your years.</span> </p>
+                    <div class="quote-author text-right">
+                        
+                        <p><span> -- </span><span id="author">Abraham Lincoln</span></p>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="new-quote" onclick="newQuote()">New Quote</button>
+                    <div class="social-media text-right">
+                            <a class="button" href="#" target="_blank" id="tweet-quote" title="Tweet this quote!">
+                                <i class="fa fa-twitter"></i></a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="row pt-2 pb-2">
+                <div class="col-md-12 creator text-center">Made with love by
+                        <a target="_blank" ="https://github.com/xiomara-masmela" target="_blank">Xio</a>
+                    </div>
+        </div>
+
+
+    </div>
+    <!--Twitter -->
+    <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+    <!-- JQUERY -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- CUSTOM JAVASCRIPT -->>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+  }
+
+
+/*+++++++++++++++++++++++++++*/
+/* QUOTE GENERATOR STYLING*/
+/*++++++++++++++++++++++++++*/
+body {
+    background-color: #F3F3F3;
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    position:relative;
+    z-index: 2;
+  }
+
+a {
+    color: #D88C8A;
+}
+
+a:hover {
+    color: #bd413f;
+}
+
+.page-title {
+    color: transparent;
+}
+
+#quote-box {
+    background-image: url('/images/quotation.jpg');
+    background-size: cover;
+}
+
+#quote-box p #text {
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.quote-author span {
+    color: #D88C8A;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+button#new-quote {
+    background: #D88C8A;
+    border: #D88C8A;
+    font-weight: 500;
+    padding: 11px 20px;
+}
+
+i.fa.fa-twitter {
+    font-size: 30px;
+}
+
+.creator {
+    font-size: 16px;
+    font-weight: 300;
+}
